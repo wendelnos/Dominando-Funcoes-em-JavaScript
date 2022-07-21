@@ -1,13 +1,3 @@
-function buscaMediaTotal (alunos=[]){
-    // somarNotas / pelo tamanho do array
-    let TotalNotas = 0;
-    for(let i = 0; i < alunos.length; i++){
-        TotalNotas =TotalNotas + alunos[i];
-
-    }
-
-    return TotalNotas/alunos.length;
-}
 
 const alunos = [
     {
